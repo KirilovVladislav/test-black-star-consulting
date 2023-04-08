@@ -73,7 +73,7 @@ export function Weather() {
                 {errorMessage || 'Введите название города'}
               </p>
             </label>
-            <Button>
+            <Button primary>
               Проверить погоду
             </Button>
           </div>
