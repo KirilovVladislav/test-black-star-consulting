@@ -1,0 +1,25 @@
+.descriplion {
+  opacity: 0.5;
+}
+
+.icon {
+  height: 6em;
+  padding: 1em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.icon:hover {
+  filter: drop-shadow(0 0 2em var(--color-blue));
+}
+
+.weather {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.maxMin {
+  opacity: 0.5;
+  font-size: 1.5em;
+}

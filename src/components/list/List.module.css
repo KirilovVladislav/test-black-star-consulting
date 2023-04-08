@@ -1,0 +1,12 @@
+.example {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1.2em;
+
+}
+
+.item {
+  list-style: none;
+  justify-self: start;
+}

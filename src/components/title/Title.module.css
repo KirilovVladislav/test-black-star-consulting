@@ -1,0 +1,12 @@
+.title {
+  margin: 0;
+  font-size: 3.2em;
+  line-height: 2;
+  color: var(--color-dark);
+  cursor: pointer;
+}
+@media (prefers-color-scheme: dark) {
+  .title {
+    color: var(--color-light)
+  }
+}
