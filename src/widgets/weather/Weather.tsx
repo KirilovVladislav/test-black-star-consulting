@@ -84,6 +84,17 @@ export function Weather() {
           </div>
         </form>
       )}
+      <form className={styles.radio}>
+        <List row list={['true', '']} render={(item) => (
+          <input
+            type={'radio'}
+            name={'changeCity'}
+            onChange={() => setChangeCity(!!item)}
+            checked={!!item === changeCity}
+            disabled={!weatherData && !!item === false}/>
+
+        )}/>
+      </form>
     </section>
   )
 }

@@ -3,7 +3,11 @@
   padding: 0;
   display: grid;
   gap: 1.2em;
+}
 
+.rowDir {
+  display: flex;
+  justify-content: center;
 }
 
 .item {

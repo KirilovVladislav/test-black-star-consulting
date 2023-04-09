@@ -10,3 +10,8 @@
     color: var(--color-light)
   }
 }
+
+.small {
+  font-size: 3.0em;
+  line-height: 1;
+}

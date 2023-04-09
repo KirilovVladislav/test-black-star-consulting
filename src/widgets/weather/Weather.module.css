@@ -14,6 +14,15 @@
     box-shadow: -10px 7px 20px rgb(255 255 255 / 0.25);
   }
 }
+@media (max-width: 760px) {
+  .card {
+    font-size: 14px;
+  }
+}
+
+.radio {
+  align-self: end;
+}
 
 .form {
   display: grid;
