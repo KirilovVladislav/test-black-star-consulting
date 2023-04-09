@@ -4,8 +4,6 @@
   --color-blue: #646cff;
   --color-yellow: #FFD04A;
 
-  max-width: 1280px;
-
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -28,12 +26,12 @@
 
 body {
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* place-items: center; */
-  min-width: 320px;
-  min-height: 100vh;
+  display: grid;
+  /* justify-content: center;
+  align-items: center; */
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 @media (prefers-color-scheme: light) {
